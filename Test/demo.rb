@@ -1,1 +1,7 @@
-puts "Hell00o World!"
+#!/usr/bin/ruby
+# -*- coding: UTF-8 -*-
+# fileName: demo.rb
+# author: liupeng
+#
+
+puts "Hello World!"
