@@ -1,8 +1,7 @@
 #!/usr/bin/ruby
 # -*- coding: UTF-8 -*-
 # author: liupeng
-# fileName: class_function.rb
-#
+# fileName: array.rb
 #                     .::::.
 #                   .::::::::.
 #                  :::::::::::  FUCK YOU
@@ -22,12 +21,8 @@
 #  ```` ':.          ':::::::::'                  ::::..
 #                     '.:::::'                    ':'````..
 #
-class Accounts
-  def reading_charge
-    puts "Paly with me!"
-  end
-end
-
-a = Accounts.new
-a.reading_charge
-
+names = Array.new(12)
+numberI = names.length
+numberII = names.size
+puts numberI
+puts numberII
